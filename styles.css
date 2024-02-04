@@ -25,14 +25,6 @@ header {
     margin-right: 100px;
 }
 
-.logo img {
-    width: 100%; /* Adjust the size as needed */
-    max-width: 100px; /* Set a maximum width to prevent excessive scaling */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 100%; /* Display as a circle */
-    object-fit: cover; /* Maintain aspect ratio */
-}
-
 h1 {
     font-style: italic;
     font-size: 24px;
