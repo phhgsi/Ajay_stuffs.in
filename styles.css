@@ -22,14 +22,14 @@ header {
 }
 
 .logo {
-    margin-right: 10px;
+    margin-right: 100px;
 }
 
 .logo img {
-    width: 20%; /* Adjust the size as needed */
-    max-width: 60px; /* Set a maximum width to prevent excessive scaling */
+    width: 100%; /* Adjust the size as needed */
+    max-width: 100px; /* Set a maximum width to prevent excessive scaling */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Display as a circle */
+    border-radius: 100%; /* Display as a circle */
     object-fit: cover; /* Maintain aspect ratio */
 }
 
