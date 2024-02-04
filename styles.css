@@ -9,6 +9,8 @@ body {
 
 /* Existing styles */
 
+/* Existing styles */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -20,14 +22,14 @@ header {
 }
 
 .logo {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .logo img {
-    width: 30%; /* Adjust the size as needed */
+    width: 20%; /* Adjust the size as needed */
     max-width: 60px; /* Set a maximum width to prevent excessive scaling */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 100%; /* Display as a circle */
+    border-radius: 50%; /* Display as a circle */
     object-fit: cover; /* Maintain aspect ratio */
 }
 
