@@ -141,3 +141,18 @@ footer {
     bottom: 0;
     width: 100%;
 }
+@media (min-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    .logo img {
+        width: 60px; /* Adjust the size for larger screens */
+        max-width: none; /* Remove maximum width for larger screens */
+    }
+
+    h1 {
+        font-size: 32px; /* Increase font size for larger screens */
+        margin-bottom: 20px;
+    }
+}
