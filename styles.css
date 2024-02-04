@@ -7,6 +7,8 @@ body {
     line-height: 1.6;
 }
 
+/* Existing styles */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -16,6 +18,27 @@ header {
     padding: 10px;
     text-align: center;
 }
+
+.logo {
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 15%; /* Adjust the size as needed */
+    max-width: 40px; /* Set a maximum width to prevent excessive scaling */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Display as a circle */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+h1 {
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Rest of your styles */
+
 
 .sidebar {
     height: 100%;
