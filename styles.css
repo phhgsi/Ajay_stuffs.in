@@ -20,14 +20,14 @@ header {
 }
 
 .logo {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .logo img {
-    width: 15%; /* Adjust the size as needed */
-    max-width: 40px; /* Set a maximum width to prevent excessive scaling */
+    width: 30%; /* Adjust the size as needed */
+    max-width: 60px; /* Set a maximum width to prevent excessive scaling */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Display as a circle */
+    border-radius: 100%; /* Display as a circle */
     object-fit: cover; /* Maintain aspect ratio */
 }
 
