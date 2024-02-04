@@ -1,3 +1,23 @@
+/* Existing styles */
+
+header {
+    background-color: #8B0000; /* Cherry Red Cream color */
+    color: #f5f5dc;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.banner {
+    background-color: #FFDAB9; /* Peachpuff color */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Existing styles */
+
 body {
     background-color: #f5f5dc; /* Cream color */
     font-family: Arial, sans-serif;
