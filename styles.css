@@ -139,6 +139,9 @@ main {
     overflow: hidden;
     position: relative;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rom-box:hover {
