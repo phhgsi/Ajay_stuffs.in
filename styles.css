@@ -6,31 +6,15 @@ body {
     box-sizing: border-box;
     line-height: 1.6;
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Ensure flex column layout */
     align-items: center;
-    min-height: 100vh; /* Ensure at least full viewport height */
+    min-height: 100vh;
 }
 
 /* Existing styles */
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #8B0000; /* Cherry Red Cream color */
-    color: #f5f5dc;
-    padding: 10px;
-    text-align: center;
-}
-
-.logo {
-    margin-right: 100px;
-}
-
-h1 {
-    font-style: italic;
-    font-size: 24px;
-    margin-bottom: 10px;
+.header-content {
+    position: relative;
 }
 
 .floating-text {
@@ -48,16 +32,12 @@ h1 {
 
 /* Rest of your styles */
 
-/* Ensure proper spacing for header and main content */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%; /* Full width */
     background-color: #8B0000;
     color: #f5f5dc;
-    padding: 10px;
     text-align: center;
-    width: 100%;
+    padding: 10px;
     z-index: 2; /* Place header above other elements */
 }
 
@@ -136,7 +116,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.3s ease; /* Smooth transition on hover */
+    transition: transform 0.3s ease;
 }
 
 .rom-box:hover {
