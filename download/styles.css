@@ -1,0 +1,158 @@
+body {
+    background-color: #f5f5dc; /* Cream color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+/* Existing styles */
+
+/* Existing styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8B0000; /* Cherry Red Cream color */
+    color: #f5f5dc;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    margin-right: 100px;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Rest of your styles */
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.rom-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.rom-box:hover {
+    transform: scale(1.05);
+}
+
+.rom-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.rom-details {
+    margin-top: 15px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.download-button:hover {
+    background-color: #555;
+}
+
+.banner {
+    background-color: #FFDAB9; /* Peachpuff color */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    .logo img {
+        width: 60px; /* Adjust the size for larger screens */
+        max-width: none; /* Remove maximum width for larger screens */
+    }
+
+    h1 {
+        font-size: 32px; /* Increase font size for larger screens */
+        margin-bottom: 20px;
+    }
+}
