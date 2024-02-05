@@ -175,6 +175,39 @@ main {
     margin: 20px 0;
     text-align: center;
 }
+/* Existing styles */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 800px; /* Adjust the maximum width as needed for your design */
+    margin: 0 auto; /* Center the main content */
+    padding: 20px;
+}
+
+.banner {
+    background-image: url('banner/1.jpg');
+    background-color: #FFDAB9; /* Peachpuff color */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Additional styles for PC enhancements */
+@media (min-width: 768px) {
+    main {
+        padding: 40px;
+    }
+
+    .download-section {
+        text-align: center;
+    }
+}
+
 
 footer {
     background-color: #333;
